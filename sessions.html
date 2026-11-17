@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Turn Overwatch match stats into workouts and track every session."><title>Workout Sessions | Overwatch</title><link rel="stylesheet" href="./arena.css?v=2"><script src="tracker.js?v=6" defer></script></head>
+<body><header><nav><a class="brand" href="./index.html">OVERWATCH / WORKOUT</a><div class="nav-links"><a href="./index.html">Tracker</a><a href="./sessions.html" aria-current="page">Sessions</a><a href="./competition.html">Competition</a></div></nav></header><main>
+<section class="hero"><div><h1>Workout <span>Sessions</span></h1><p>Review your workout history or start a session for a specific date.</p></div></section><section class="panel" id="sessions" aria-labelledby="sessions-heading">
+<div class="row"><h2 id="sessions-heading">Workout sessions</h2><div class="row"><label for="session-date">Session date</label><input id="session-date" type="date" aria-label="Session date" style="width:auto"><button id="new-day" class="primary" type="button">+ New session</button></div></div>
+<div class="scroll"><table><thead><tr><th scope="col">Date</th><th scope="col">Session</th><th scope="col">Games</th><th scope="col">Record</th><th scope="col">Workout reps</th><th scope="col">Plank time</th><th scope="col">Details</th></tr></thead><tbody id="session-rows"></tbody></table></div>
+<output id="session-message" aria-live="polite"></output></section></main></body></html>
