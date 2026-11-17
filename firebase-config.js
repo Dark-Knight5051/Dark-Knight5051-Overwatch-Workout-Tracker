@@ -1,7 +1,7 @@
 export const firebaseConfig = {
   apiKey: "AIzaSyC2vpLV0APVoKhyqbdvHoibbJh7Hrih4Hw",
-  authDomain: "://firebaseapp.com",
-  databaseURL: "https://firebaseio.com",
+  authDomain: "overwatch-workout-tracker.firebaseapp.com",
+  databaseURL: "https://overwatch-workout-tracker-default-rtdb.firebaseio.com",
   projectId: "overwatch-workout-tracker",
   storageBucket: "overwatch-workout-tracker.firebasestorage.app",
   messagingSenderId: "110700660854",
